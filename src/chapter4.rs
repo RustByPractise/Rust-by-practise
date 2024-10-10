@@ -1,5 +1,1 @@
-/// https://practice.course.rs/basic-types/numbers.html
-#[test]
-fn test41() {
-
-}
+4.1. Numbers 
