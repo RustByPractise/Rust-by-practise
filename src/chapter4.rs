@@ -177,3 +177,37 @@ fn main() {
     println!("Success!");
 }
 
+4.3. Statements and Expressions
+
+fn main() {
+   let v = {
+       let mut x = 1;
+       x += 2; 
+       x 
+   };
+
+   assert_eq!(v, 3);
+
+   println!("Success!");
+}
+
+fn main() {
+   let v = 3; // Directly assign 3 to v
+
+   assert!(v == 3);
+
+   println!("Success!");
+}
+
+
+fn main() {
+    let s = sum(1, 2);
+    assert_eq!(s, 3);
+
+    println!("Success!");
+}
+
+fn sum(x: i32, y: i32) -> i32 {
+    x + y 
+}
+
