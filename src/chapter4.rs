@@ -116,3 +116,6 @@ fn main() {
     println!("1 << 5 is {}", 1u32 << 5);
     println!("0x80 >> 2 is 0x{:x}", 0x80u32 >> 2);
 }
+
+4.2. Char, Bool and Unit
+
